@@ -1,0 +1,34 @@
+// ibm q53 is not similar to gird device
+m = 1;
+n = 53;
+QPAIRS(0, 1)    QPAIRS(1, 2)    QPAIRS(2, 3)    QPAIRS(3, 4)
+QPAIRS(0, 5)    QPAIRS(5, 9)    QPAIRS(4, 6)    QPAIRS(6, 13)
+
+for(int ii = 7; ii < 15; ii++) {
+    QPAIRS(ii, ii + 1);
+}
+
+QPAIRS(7, 16)   QPAIRS(16, 19)
+QPAIRS(11, 17)  QPAIRS(17, 23)
+QPAIRS(15, 18)  QPAIRS(18, 27)
+
+for(int ii = 19; ii < 27; ii++) {
+    QPAIRS(ii, ii + 1);
+}
+
+QPAIRS(21, 28)  QPAIRS(28, 32)
+QPAIRS(25, 29)  QPAIRS(29, 36)
+
+for(int ii = 30; ii < 38; ii++) {
+    QPAIRS(ii, ii + 1);
+}
+
+QPAIRS(30, 39)  QPAIRS(39, 42)
+QPAIRS(34, 40)  QPAIRS(40, 46)
+QPAIRS(38, 41)  QPAIRS(41, 50)
+
+for(int ii = 42; ii < 50; ii++) {
+    QPAIRS(ii, ii + 1);
+}
+
+QPAIRS(44, 51)  QPAIRS(48, 52)
