@@ -233,7 +233,9 @@ void CODAR::loadCommutingTable() {
         commuting_table[i] = 1 << i;
     }
 #undef COMMUTE
-#define COMMUTE(G1, G2) commuting_table[gate_enum::G1] |= 1 << gate_enum::G2;
+#define COMMUTE(G1, G2) \
+    commuting_table[gate_enum::G1] |= 1 << gate_enum::G2;   \
+    commuting_table[gate_enum::G2] |= 1 << gate_enum::G1;
 #include "commuting.def"
 #undef COMMUTE
 #define COMMUTE(G1, G2)
