@@ -11,17 +11,12 @@ If you find the CODAR useful in your research, please consider citing:
 @inproceedings{ deng2020codar,
     title	= {{CODAR}: A Contextual Duration-Aware Qubit Mapping for Various {NISQ} Devices},
     author	= {Deng, Haowei and Zhang, Yu and Li, Quanxi},
-    booktitle={Proceedings of the 57th Annual Design Automation Conference (DAC 2020)},
-	month	= {July}，
+    booktitle={Proceedings of 2020 57th ACM/IEEE Design Automation Conference (DAC)},
+	month	= {July},
     year	={2020},
-    organization={IEEE}，
-}
-
-@article{deng2020codar,
-    title     = {{CODAR}: A Contextual Duration-Aware Qubit Mapping for Various {NISQ} Devices},
-    author    = {Deng, Haowei and Zhang, Yu and Li, Quanxi},
-    journal   = {arXiv preprint arXiv:2002.10915},
-    year      = {2020}，
+    organization={IEEE},
+    doi		= {10.1109/DAC18072.2020.9218561},
+    url		= {https://ieeexplore.ieee.org/document/9218561},
 }
 ```
 
